@@ -1,0 +1,43 @@
+.side-container {
+  color: #333333;
+}
+
+.header-light{
+  width: 100%;
+  background-color: rgb(246, 243, 243);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  position: fixed;
+  padding:10px 0 30px 100px ;
+}
+.header-dark{
+  width: 100%;
+  background-color: #333333;
+  box-shadow: 0 4px 8px 0 rgba(254, 254, 254, 0.2);
+  color: #ffffff;
+  position: fixed;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding:10px 0 30px 100px ;
+}
+.select{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.task {
+  cursor: grab;
+  border: 1px solid #ffffff;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.active{
+  text-decoration: underline;
+}
+.input{
+  background-color : #d1d1d1; 
+}
+.create-task {
+  background: rgba(0, 0, 0, 0.5);
+}
+.columns {
+  float: left;
+  width: 10%;
+  margin-left: 8%;
+}
